@@ -80,7 +80,7 @@ function purchaseClicked() {
         jsonObject.push(obj)
     }
 
-    alert(JSON.stringify(jsonObject))
+    console.log(JSON.stringify(jsonObject))
 
     while (cartItems.hasChildNodes()) {
         cartItems.removeChild(cartItems.firstChild)
